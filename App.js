@@ -5,24 +5,24 @@ import * as Location from 'expo-location';
 
 const CIUDADES_PRUEBA = [
   { nombre: 'Local (GPS)', lat: null, lon: null },
-  // Base McMurdo
-  { nombre: 'Antártida', lat: -77.8463, lon: 166.6682 },
-  // EE.UU: El lugar más caluroso del mundo. 
-  { nombre: 'Valle de la Muerte', lat: 36.4500, lon: -116.8721 },
-  // India: El lugar más lluvioso del planeta (Monzones). 
-  { nombre: 'Cherrapunji', lat: 25.2702, lon: 91.7323 },
-  // Venezuela: Capital mundial de los relámpagos. 
-  { nombre: 'Maracaibo', lat: 9.7457, lon: -71.5587 },
-  // China: El mágico "Mar de Nubes".
-  { nombre: 'Huangshan', lat: 30.1265, lon: 118.1733 }, 
-  // Tórshavn: Uno de los lugares más nublados y oscuros del mundo.
-  { nombre: 'Islas Feroe', lat: 62.0014, lon: -6.7662 }, 
-  // Nepal: Altitud extrema. 
-  { nombre: 'Everest', lat: 27.9881, lon: 86.9250 },
-  // Calidad de Aire Peligrosa 
-  { nombre: 'Nueva Delhi', lat: 28.6139, lon: 77.2090 },
-  // Calidad de Aire Excelente
-  { nombre: 'Reikiavik', lat: 64.1466, lon: -21.9426 },
+  // Uruapan, México: Ciudad con alta tasa de homicidios.
+  { nombre: 'Uruapan', lat: 19.41677, lon: -102.05842 },
+  // Culiacan
+  { nombre: 'Culiacan', lat: 24.80209, lon: -107.39421 },
+  // Ciudad Obregon
+  { nombre: 'Ciudad Obregon', lat: 27.48642, lon: -109.94079 },
+  // Ecatepec de morelos
+  { nombre: 'Ecatepec de morelos', lat: 19.60492, lon: -99.06064 },
+  // Irapuato
+  { nombre: 'Irapuato', lat: 20.67100, lon: -101.35577 }, 
+  // Tapachula
+  { nombre: 'Tapachula', lat: 14.90541, lon: -92.25891 }, 
+  // Chimalhuacan 
+  { nombre: 'Chimalhuacan', lat: 19.42120, lon: -98.94940 },
+  // Puebla
+  { nombre: 'Puebla', lat: 19.05140, lon: -98.21780 },
+  // Fresnillo Zacatecas
+  { nombre: 'Fresnillo', lat: 23.17490, lon: -102.86785 },
 ];
 
 export default function App() {
